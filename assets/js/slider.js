@@ -86,8 +86,8 @@
             }, r.pauseTime)
         }
         if (r.directionNav) {
-            s.append('<div class="nivo-directionNav"><a class="nivo-prevNav">' + r.prevText + '</a><a class="nivo-nextNav">' + r.nextText + "</a></div>");
-            e(s).on("click", "a.nivo-prevNav", function() {
+            s.append('<div class="nivo-directionNav"><button type="button" class="nivo-prevNav">' + r.prevText + '</button><button type="button" class="nivo-nextNav">' + r.nextText + "</button></div>");
+            e(s).on("click", ".nivo-prevNav", function() {
                 if (i.running) {
                     return false
                 }
@@ -96,7 +96,7 @@
                 i.currentSlide -= 2;
                 d(s, o, r, "prev")
             });
-            e(s).on("click", "a.nivo-nextNav", function() {
+            e(s).on("click", ".nivo-nextNav", function() {
                 if (i.running) {
                     return false
                 }

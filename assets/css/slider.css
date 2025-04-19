@@ -82,7 +82,7 @@
     cursor: pointer
 }
 
-a.nivo-prevNav {
+.nivo-prevNav {
     left: 0;
     background-position: 17px 0 !important;
     border-radius: 0 3px 3px 0
@@ -226,7 +226,7 @@ a.nivo-nextNav {
 	z-index:999;
 }
 
-.theme-default a.nivo-prevNav {
+.theme-default .nivo-prevNav {
     left: 100px;
 	z-index:999;
 }

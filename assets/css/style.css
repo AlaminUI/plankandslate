@@ -171,10 +171,10 @@ div#slider {
   font-family: "Poppins", sans-serif;
 }
 .slider-main .theme-default .nivo-directionNav{position: absolute;right: 100px;z-index: 9999;top:45%;}
-.slider-main .theme-default .nivo-directionNav a{border-radius: 0;background-color: #ffffff;height: 63px;width: 63px;position: static;background-position: center !important;display:inline-block;margin-bottom:5px; display:block;}
-.slider-main .theme-default .nivo-directionNav a.nivo-prevNav{background-image: url(../img/arrow-left.png);}
-.slider-main .theme-default .nivo-directionNav a.nivo-nextNav{background-image: url(../img/arrow-right.png);}
-.slider-main .theme-default .nivo-directionNav a:hover{background-color: #bf804a;}
+.slider-main .theme-default .nivo-directionNav button{border-radius: 0;background-color: #ffffff;height: 63px;width: 63px;position: static;background-position: center !important;display:inline-block;margin-bottom:5px;display:block;background-repeat: no-repeat;font-size: 0px;outline: none;border-width: 0px;}
+.slider-main .theme-default .nivo-directionNav .nivo-prevNav{background-image: url(../img/arrow-left.png);}
+.slider-main .theme-default .nivo-directionNav button.nivo-nextNav{background-image: url(../img/arrow-right.png);}
+.slider-main .theme-default .nivo-directionNav button:hover{background-color: #0f1c57;color: #fff;}
 a.slidelink:hover {
   background:#0d1d57!important;
   color:#fff!important;
@@ -273,16 +273,17 @@ section.guide-section h2 {
 
 .guide-card h3 {
     font-size: 40px;
-    color: #fff;
+    color: #0f1c57;
 }
 .guide-card {
-  background-color: #c68b4d;
+  background-color: #fff;
   color: white;
   text-align: center;
   padding: 30px 15px;
   border-radius: 0;
   height: 100%;
   transition: transform 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .guide-card:hover {
@@ -298,6 +299,7 @@ section.guide-section h2 {
   font-weight: bold;
   margin-bottom: 0px;
   font-size: 24px;
+  color: #0f1c57;
 }
 
 .read-more-btn {
@@ -374,12 +376,13 @@ section.guide-section h2 {
   width: 90px;
   height: 90px;
   margin: 0 auto 15px;
-  border: 2px solid white;
+  border: 2px solid #0f1c57;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 32px;
+  color: #0f1c57;
 }
 
         /* Custom Accordion Styles */
