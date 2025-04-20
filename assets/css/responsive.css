@@ -103,7 +103,7 @@
       .header-content {
         justify-content: space-between;
         align-items: center;
-        padding: 15px 0;
+        padding: 0px 0;
       }
     ul.menu {
 }
@@ -145,6 +145,13 @@ ul.menu li a {
     }
     .section-title {
          padding-bottom: 16px;
+    }
+    li.call-btn .btn {
+     
+        display: inline-flex;
+    }
+    li.call-btn {
+        margin-top: 0px;
     }
 }
 

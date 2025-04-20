@@ -126,6 +126,7 @@ ul.menu {
 }
 .logo img {
     max-width: 174px;
+    padding: 16px;
 }
 .header-content {
   display: flex;
@@ -191,7 +192,11 @@ a.slidelink:hover {
   color:#fff!important;
 }
 
-
+/* .banner-imag img {
+  height: calc(100vh - 93px);
+  object-fit: cover;
+  object-position: center;
+} */
 .section-title {
   text-align: center;
   padding-bottom: 30px;
