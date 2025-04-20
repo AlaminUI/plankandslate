@@ -1,6 +1,9 @@
  
 
 /************** Default CSS **************/
+html{
+  scroll-behavior: smooth;
+}
 *{
   box-sizing: border-box;
   padding:0;
@@ -114,7 +117,7 @@ text-decoration: none;
 
 
 header {
-  background: rgba(45,41,39, 1);
+  background: #fff;
 }
 
 ul.menu {
@@ -135,14 +138,22 @@ ul.menu li {
 }
 
 ul.menu li a {
-  color: #fff;
+  color: #0f1c57;
   font-weight: 500;
   font-size:16px;
+  border-bottom: 2px solid transparent;
+}
+li.call-btn .btn {
+  color: #fff;
+  padding: 7px 24px;
 }
 
-ul.menu li a:hover {
-  color: #bf804a;
+li.call-btn .btn:hover {
+  color: #0f1c57;
 }
+
+li.call-btn {padding-top: 20px !important;!i;!;padding-bottom: 20px !important;!i;!;}
+ul.menu li a:hover {border-color: #0f1c57;}
 div#slider {
   height: calc(100vh - 93px);
 }
@@ -256,7 +267,7 @@ section.about-area p {
 .mobile-menu-toggle span {
   display: block;
   height: 3px;
-  background-color: #fff;
+  background-color: #0f1c57;
   border-radius: 3px;
 }
 
