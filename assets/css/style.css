@@ -546,5 +546,7 @@ section.guide-section h2 {
 .social-icons a:hover {
   background-color: #444;
 }
-
+.mobile {
+  display: none;
+}
 /************** Template CSS End **************/

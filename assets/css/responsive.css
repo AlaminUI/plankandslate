@@ -156,6 +156,12 @@ ul.menu li a {
     li.call-btn {
         margin-top: 0px;
     }
+    .mobile {
+        display: block;
+      }
+      .desktop {
+        display: none;
+      }
 }
 
 /* Small devices (landscape phones, 576px and up) */
