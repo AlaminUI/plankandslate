@@ -549,4 +549,16 @@ section.guide-section h2 {
 .mobile {
   display: none;
 }
+
+section.roomvo-area {
+  padding: 90px 0px;
+}
+
+.roomvo-text h2 {
+  line-height: 1;
+  padding-bottom: 12px;
+}
+.roomvo-text {
+  padding-left: 24px;
+}
 /************** Template CSS End **************/

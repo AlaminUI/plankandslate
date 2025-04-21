@@ -162,6 +162,13 @@ ul.menu li a {
       .desktop {
         display: none;
       }
+      .roomvo-text {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    section.roomvo-area {
+        padding: 50px 0px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
