@@ -563,4 +563,79 @@ section.roomvo-area {
 .roomvo-text {
   padding-left: 24px;
 }
+
+.popup-box {
+  display: flex;
+  cursor: pointer;
+  margin: 0px;
+  position: fixed;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: solid rgb(0, 0, 0) 1px;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  z-index: 999;
+  bottom: 10px;
+  -webkit-animation: pulse-bottom-layout 2s infinite;
+  animation: pulse-bottom-layout 2s infinite;
+  left: 10px;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes pulse-bottom-layout {
+  0% {
+    border: 1px solid rgb(0, 0, 0);
+  }
+  70% {
+    box-shadow: rgb(255, 61, 0) 0px 0px 4px 4px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  100% {
+    border: 1px solid rgb(0, 0, 0);
+  }
+}
+.popup-body p {
+  background: rgb(51, 51, 51);
+  position: absolute;
+  left: 50px;
+  width: 174px;
+  padding: 10px 8px;
+  text-align: right;
+  margin: 0;
+  bottom: 2px;
+  color: #fff;
+  font-size: 14px;
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.popup-body {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.popup-body img {
+  max-width: 34px;
+}
+
+.popup-body .popup-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+}
+.popup-body p a {
+  color: #fff;
+}
 /************** Template CSS End **************/
