@@ -169,6 +169,25 @@ ul.menu li a {
     section.roomvo-area {
         padding: 50px 0px;
     }
+    section.apart-area {
+        padding: 50px 0px;
+    }
+    
+    .aprt-image {
+        padding: 0px;
+        margin-top: 16px;
+    }
+    
+    .aprat-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin-bottom: 32px;
+    }
+    
+    .aprat-icon img {
+        max-width: 56px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
