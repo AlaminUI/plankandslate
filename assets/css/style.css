@@ -1014,9 +1014,7 @@ section.apart-area {
         
         /* Mobile Responsive */
         @media (max-width: 768px) {
-            .trinity-hero h1 {
-                font-size: 2em;
-            }
+     
             
             .trinity-hero .subtitle {
                 font-size: 1.2em;

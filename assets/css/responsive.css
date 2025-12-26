@@ -188,6 +188,10 @@ ul.menu li a {
     .aprat-icon img {
         max-width: 56px;
     }
+    h1 {
+    font-size: 50px;
+    line-height: 1.1;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
