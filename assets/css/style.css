@@ -681,7 +681,7 @@ section.apart-area {
 
  /* Hero Section */
         .trinity-hero {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/flooring-installation-trinity-fl-banner.jpeg');
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/flooring-installation-banner.jpeg');
             background-size: cover;
             background-position: center;
             padding: 120px 20px 100px;
