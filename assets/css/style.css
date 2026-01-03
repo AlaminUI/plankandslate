@@ -118,6 +118,7 @@ text-decoration: none;
 
 header {
   background: #fff;
+  border-bottom: 1px solid #eee;
 }
 
 ul.menu {
@@ -472,11 +473,12 @@ section.guide-section h2 {
 .copyright p {
     margin-bottom: 0px;
     color: #bbb;
+    font-size: 15px;
 }
 .footer h2 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 16px;
   color: #fff;
   letter-spacing: 0.5px;
 }
@@ -493,6 +495,7 @@ section.guide-section h2 {
   color: #bbb;
   line-height: 1.6;
   margin-bottom: 30px;
+  font-size: 16px;
 }
 
 .footer-divider {
@@ -506,6 +509,7 @@ section.guide-section h2 {
   margin-bottom: 12px;
   text-decoration: none;
   transition: color 0.3s;
+  font-size: 16px;
 }
 .social-icons {
     margin-right: auto;
@@ -525,6 +529,7 @@ section.guide-section h2 {
 .contact-info {
   margin-bottom: 12px;
   color: #bbb;
+  font-size: 16px;
 }
 
 .contact-info strong {
@@ -1011,11 +1016,86 @@ section.apart-area {
             color: #666;
             line-height: 1.7;
         }
-        
+        .content-area h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.content-area p {
+    margin-bottom: 20px;
+}
+
+.content-area {
+    margin-bottom: 32px;
+}
+.request-form h2 {
+    text-align: center;
+    font-size: 30px;
+}
+section.content-page-area {
+    padding-top: 32px;
+}
+.page-breadcrumb ul {
+    display: flex;
+    padding: 0;
+    margin-left: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+.page-breadcrumb ul li a {
+    font-size: 14px;
+    color: #a1a1a1;
+}
+
+.page-breadcrumb ul li {
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a1a1a1;
+    text-transform: uppercase;
+}
+
+.page-breadcrumb ul li:after {
+    content: "";
+    width: 13px;
+    height: 1.5px;
+    background: #a1a1a1;
+    position: absolute;
+    rotate: -74deg;
+    bottom: 9px;
+    right: -14px;
+}
+
+.page-breadcrumb {
+    border: 1px solid #eee;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 4px 8px;
+}
+ 
+.page-breadcrumb ul li:last-child::after {
+    display: none;
+}
+
+.page-breadcrumb ul li a:hover {
+    color: #0f1c57;
+}
+.content-area h3 {
+    font-size: 22px;
+    margin-top: 16px;
+}
         /* Mobile Responsive */
         @media (max-width: 768px) {
      
-            
+            .content-area h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+.content-area iframe {
+    height: 250px;
+}
             .trinity-hero .subtitle {
                 font-size: 1.2em;
             }
